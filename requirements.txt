@@ -1,0 +1,8 @@
+torch>=2.0.0
+transformers>=4.40.0
+optimum-quanto
+qwen-vl-utils
+flash-attn>=2.0.0
+pillow
+numpy
+
