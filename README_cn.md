@@ -23,12 +23,10 @@ pip install -r requirements.txt
 
 ## 模型下载
 
-下载 MammothModa2-Preview 模型并放置到：
+从 [🤗 HuggingFace](https://huggingface.co/bytedance-research/MammothModa2-Preview) 下载 MammothModa2-Preview 模型并放置到：
 ```
 ComfyUI/models/MammothModa2-Preview/
 ```
-
-模型来源：请查看 MammothModa2 官方仓库获取模型权重。
 
 ## 使用说明
 
@@ -48,7 +46,26 @@ ComfyUI/models/MammothModa2-Preview/
 - PyTorch（支持 CUDA）
 - flash-attn 包
 
+## 致谢
+
+本项目基于字节跳动研究院的 [MammothModa2](https://huggingface.co/bytedance-research/MammothModa2-Preview)。感谢 MammothModa 团队的出色工作。
+
+- **原项目**: [MammothModa2](https://github.com/bytedance/mammothmoda)
+- **模型**: [MammothModa2-Preview](https://huggingface.co/bytedance-research/MammothModa2-Preview)
+- **许可证**: [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
+
+## 引用
+
+```bibtex
+@misc{mammothmoda2025,
+    title = {MammothModa2: Jointly Optimized Autoregressive-Diffusion Models for Unified Multimodal Understanding and Generation},
+    author = {MammothModa Team},
+    year = {2025},
+    url = {https://github.com/bytedance/mammothmoda}
+}
+```
+
 ## 许可证
 
-详见 LICENSE 文件。
+Apache-2.0
 
